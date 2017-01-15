@@ -12,11 +12,14 @@ function checkOddElements(arr){
 		// and its pair
 		restSum=sum-(2*elementToCheck);
 		// Now if this number has a pair, the sum excluding this and its pair should be a odd number else it will be even as every other element would have a pair
-		console.log(restSum);
+		// console.log(restSum);
 		if (restSum % 2 === 0){
 			return elementToCheck;
 		}
 	}
 }
 
-console.log(checkOddElements([1,2,1]));
+
+
+
+console.log(checkOddElements([1,2,1,2,3,4,3]));
